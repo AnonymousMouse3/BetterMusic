@@ -1,0 +1,36 @@
+[1.3] Music Replacer allows you to customize Terraria's soundtrack. 
+Comes with a bunch of default tracks, though you can easily remove them if you don't like them. Probably compatible with every mod.
+
+FEATURES:
+- Customize music for each individual enemy
+- Replace biome music & title music
+- Replace any modded event, biome or boss music
+- Add conditions for your music:
+  - Only play when boss is in phase 2
+  - Only when player is underground
+  - Only during the night
+  - etc..
+
+
+Included music is a mishmash of 1.4, Console Terraria, Otherworld, Calamity Extra Music, and Overhaul tracks:
+
+Alt Rain:                    Terraria 1.4
+Jungle Night:              Terraria 1.4
+Underground Desert:      Terraria 1.4
+Underground Jungle:      Terraria 1.4
+Ocean Night:                Terraria Console OST
+Space Night:                Terraria Console OST
+Title:                         Terraria Console OST
+Blizzard:                    Cold Front by Turqoise
+Underground Hallow:       Chaos Elemental by DM Dokuro
+
+King Slime:                 Gelatine Throne by Turquoise
+Eye of Cthulhu:            Boss 1 (Redux) by Kirbyrocket
+Queen Bee:                 Stinging Onslaught by Turquoise
+Wall of Flesh:              Otherworld Wall of Flesh
+The Destroyer:             Otherworld Boss 2
+The Twins:                  Boss 2 Remix by Kirbyrocket
+Skeletron Prime:           Boss 1 Orchestra by Blake Robinson
+Plantera Phase 1 & 2:      Plantera Metal Cover by FalKKonE
+Duke Fishron:              Eye of Cthulhu by DM Dokuro
+Lunatic Cultist:             Breaking the Seal by Turqoise

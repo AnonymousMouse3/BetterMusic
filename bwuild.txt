@@ -1,0 +1,5 @@
+displayName = Better Music & Music Replacer
+author = fiso64
+version = 2.1.3
+includePDB = true
+homepage = https://forums.terraria.org/index.php?threads/better-music-music-replacer-add-custom-music-to-anything-1-3.111632/

@@ -1,0 +1,274 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Mono.Cecil/0.10.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "MonoMod/22.1.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.10.4",
+          "MonoMod.Utils": "22.1.4.3"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net35/MonoMod.exe": {}
+        },
+        "runtime": {
+          "lib/net35/MonoMod.exe": {}
+        }
+      },
+      "MonoMod.RuntimeDetour/22.1.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.10.4",
+          "MonoMod.Utils": "22.1.4.3"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net35/MonoMod.RuntimeDetour.dll": {}
+        },
+        "runtime": {
+          "lib/net35/MonoMod.RuntimeDetour.dll": {}
+        }
+      },
+      "MonoMod.RuntimeDetour.HookGen/22.1.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.10.4",
+          "MonoMod": "22.1.4.3",
+          "MonoMod.RuntimeDetour": "22.1.4.3",
+          "MonoMod.Utils": "22.1.4.3"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net35/MonoMod.RuntimeDetour.HookGen.exe": {}
+        },
+        "runtime": {
+          "lib/net35/MonoMod.RuntimeDetour.HookGen.exe": {}
+        }
+      },
+      "MonoMod.Utils/22.1.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.10.4"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net35/MonoMod.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net35/MonoMod.Utils.dll": {}
+        }
+      },
+      "tModLoader.CodeAssist/0.1.5": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Mono.Cecil/0.10.4": {
+      "sha512": "BHukPf7zfXu+akTcFEAWvU4x3hVMMIDC+ihGAl/+8OozrY0f/ajrpuaSUf2Q3Xvgsge5NryvOkjtyhV5TNXoSg==",
+      "type": "package",
+      "path": "mono.cecil/0.10.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Mono.Cecil.Mdb.dll",
+        "lib/net35/Mono.Cecil.Pdb.dll",
+        "lib/net35/Mono.Cecil.Rocks.dll",
+        "lib/net35/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/netstandard1.3/Mono.Cecil.Mdb.dll",
+        "lib/netstandard1.3/Mono.Cecil.Pdb.dll",
+        "lib/netstandard1.3/Mono.Cecil.Rocks.dll",
+        "lib/netstandard1.3/Mono.Cecil.dll",
+        "mono.cecil.0.10.4.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "MonoMod/22.1.4.3": {
+      "sha512": "Gvc6LInSvbLVx/SoXkS5BkFyGPlKoMoq1jpViFgtlJnrcK4XM3Pu17MGb3KQOep4fZzv/dmiejbAs8GX/BC04Q==",
+      "type": "package",
+      "path": "monomod/22.1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/MonoMod.exe",
+        "lib/net35/MonoMod.xml",
+        "lib/net452/MonoMod.exe",
+        "lib/net452/MonoMod.xml",
+        "lib/net5.0/MonoMod.dll",
+        "lib/net5.0/MonoMod.runtimeconfig.json",
+        "lib/net5.0/MonoMod.xml",
+        "lib/netstandard2.0/MonoMod.dll",
+        "lib/netstandard2.0/MonoMod.xml",
+        "monomod.22.1.4.3.nupkg.sha512",
+        "monomod.nuspec"
+      ]
+    },
+    "MonoMod.RuntimeDetour/22.1.4.3": {
+      "sha512": "b+Er1cINx9gOZUh65B+0Lm6Bt6U8RHmB03DRtfSopVlbOEstnq5ACpAN+T7jSB0O9qqDIlpP4K2xyvjuy/QHww==",
+      "type": "package",
+      "path": "monomod.runtimedetour/22.1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/MonoMod.RuntimeDetour.dll",
+        "lib/net35/MonoMod.RuntimeDetour.xml",
+        "lib/net452/MonoMod.RuntimeDetour.dll",
+        "lib/net452/MonoMod.RuntimeDetour.xml",
+        "lib/net5.0/MonoMod.RuntimeDetour.dll",
+        "lib/net5.0/MonoMod.RuntimeDetour.xml",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.dll",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.xml",
+        "monomod.runtimedetour.22.1.4.3.nupkg.sha512",
+        "monomod.runtimedetour.nuspec"
+      ]
+    },
+    "MonoMod.RuntimeDetour.HookGen/22.1.4.3": {
+      "sha512": "W65WQ37nzgNN41RUXSiS/YzoCnoZRuzE1Xc2FqSOhhiPU2iKkI26hbI2FMUEhB1nSmtqpfj+l7XCUlym14FHbg==",
+      "type": "package",
+      "path": "monomod.runtimedetour.hookgen/22.1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/MonoMod.RuntimeDetour.HookGen.exe",
+        "lib/net35/MonoMod.RuntimeDetour.HookGen.xml",
+        "lib/net452/MonoMod.RuntimeDetour.HookGen.exe",
+        "lib/net452/MonoMod.RuntimeDetour.HookGen.xml",
+        "lib/net5.0/MonoMod.RuntimeDetour.HookGen.dll",
+        "lib/net5.0/MonoMod.RuntimeDetour.HookGen.runtimeconfig.json",
+        "lib/net5.0/MonoMod.RuntimeDetour.HookGen.xml",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.HookGen.dll",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.HookGen.xml",
+        "monomod.runtimedetour.hookgen.22.1.4.3.nupkg.sha512",
+        "monomod.runtimedetour.hookgen.nuspec"
+      ]
+    },
+    "MonoMod.Utils/22.1.4.3": {
+      "sha512": "+lFiiOXbPscwht9rnQbWfUR30+YE0T55iGAoHyUM46sB4eW3HrHWsaY6UQsugdUA3oWVlBQWi7vtdnd1la2u7Q==",
+      "type": "package",
+      "path": "monomod.utils/22.1.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/MonoMod.Utils.dll",
+        "lib/net35/MonoMod.Utils.xml",
+        "lib/net452/MonoMod.Utils.dll",
+        "lib/net452/MonoMod.Utils.xml",
+        "lib/net5.0/MonoMod.Utils.dll",
+        "lib/net5.0/MonoMod.Utils.xml",
+        "lib/netstandard2.0/MonoMod.Utils.dll",
+        "lib/netstandard2.0/MonoMod.Utils.xml",
+        "monomod.utils.22.1.4.3.nupkg.sha512",
+        "monomod.utils.nuspec"
+      ]
+    },
+    "tModLoader.CodeAssist/0.1.5": {
+      "sha512": "Sg/jKEg/z5eN+Cdi3/9CU4JfJwvXHVH+UDJf4Lipo26uTa+guLLJXH1XDJNPShTFwKK8jMUYbthINP4QhsgHSA==",
+      "type": "package",
+      "path": "tmodloader.codeassist/0.1.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetIcon.png",
+        "analyzers/dotnet/cs/tModLoader.CodeAssist.dll",
+        "tmodloader.codeassist.0.1.5.nupkg.sha512",
+        "tmodloader.codeassist.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "MonoMod.RuntimeDetour.HookGen >= 22.1.4.3",
+      "tModLoader.CodeAssist >= 0.1.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sokfi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sokfi\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\BetterMusic\\BetterMusic.csproj",
+      "projectName": "BetterMusic",
+      "projectPath": "C:\\Users\\sokfi\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\BetterMusic\\BetterMusic.csproj",
+      "packagesPath": "C:\\Users\\sokfi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sokfi\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\BetterMusic\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sokfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "targetAlias": "net45",
+        "dependencies": {
+          "MonoMod.RuntimeDetour.HookGen": {
+            "target": "Package",
+            "version": "[22.1.4.3, )"
+          },
+          "tModLoader.CodeAssist": {
+            "target": "Package",
+            "version": "[0.1.*, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
